@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from supabase import create_client, Client
+from instructor_embeddings import encode_recipe_to_embedding
 
 load_dotenv()
 
@@ -11,7 +12,3 @@ def get_supabase_client():
 
     supabase: Client = create_client(url, key)
     return supabase
-
-
-db = get_supabase_client()
-# all_recipes = db.table('recipes').select('*').execute()
