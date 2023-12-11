@@ -1,0 +1,8 @@
+python-dotenv
+supabase
+transformers
+bottle
+InstructorEmbedding
+torchvision
+sentence-transformers
+sacremoses
