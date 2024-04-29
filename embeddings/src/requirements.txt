@@ -4,5 +4,5 @@ transformers
 bottle
 InstructorEmbedding
 torchvision
-sentence-transformers
+sentence-transformers==2.2.2
 sacremoses
